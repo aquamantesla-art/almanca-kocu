@@ -3,6 +3,7 @@ dist
 *.log
 .DS_Store
 .claude/
+.impeccable/
 
 # Android signing key: kept only on this computer and in GitHub secrets
 android-signing/
