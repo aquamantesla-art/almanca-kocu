@@ -208,7 +208,7 @@ function TypeIn({ ex, answered, onAnswer }: { ex: Exercise; answered: { ok: bool
               spellCheck={false}
               aria-label={`Boşluk ${i + 1}`}
               style={{ width: `${Math.max(4, longest + 2)}ch` }}
-              className={`mx-1 rounded-md border-b-2 bg-sunken px-1.5 py-0.5 text-center font-semibold outline-none ${
+              className={`mx-1 rounded-t-md border-b-2 bg-sunken px-1.5 py-0.5 text-center font-semibold outline-none ${
                 c ? (c.ok ? 'border-ok text-ok' : 'border-bad text-bad') : 'border-ink'
               }`}
             />
