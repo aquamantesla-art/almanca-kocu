@@ -1,0 +1,15 @@
+node_modules
+dist
+*.log
+.DS_Store
+.claude/
+
+# Android signing key: kept only on this computer and in GitHub secrets
+android-signing/
+android/app/release.p12
+*.p12
+*.jks
+*.keystore
+
+# Personal research notes stay private
+Öğrenme yollar.txt
